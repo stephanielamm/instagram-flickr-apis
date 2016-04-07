@@ -10,7 +10,7 @@
 
 $(function() {
 
-	var tag= "tarheels";
+	var tag= "HB2";
 
 	var IGapiurl = "https://api.instagram.com/v1/tags/"+tag+"/media/recent?access_token=248660894.aee21ef.0cb44e17e81547ef994d0de5ff989bbc&callback=?"
 	var access_token = location.hash.split('=')[1];
